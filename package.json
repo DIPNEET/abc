@@ -1,0 +1,23 @@
+{
+  "homepage": "http://DIPNEET.github.io/LHL",
+  "name": "monkey-chunky-stage-4",
+  "version": "0.1.0",
+  "description": "LHL",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0",
+    "gh-pages": "^3.1.0"
+  },
+  "dependencies": {
+    "expo": "^36.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.1.tar.gz",
+    "react-native-paper": "3.1.1",
+    "expo-av": "8.0.0",
+    "react-native-elements": "1.2.7"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+}
